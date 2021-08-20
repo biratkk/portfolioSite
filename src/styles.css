@@ -1,0 +1,386 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Original+Surfer&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');/*Cabin*/
+@media screen and (min-width:1025px) {
+    *{
+        margin: 0;
+        max-width: 100%;
+    }
+    
+    button{
+        outline:none;
+    }
+    
+    ::-webkit-scrollbar{
+        width: 0px;
+        background-color: DarkSlateGray;
+    }
+    ::-webkit-scrollbar-thumb{
+        background-color: red;
+    }
+
+    #sticky-nav-bar{
+        background-color: rgb(75, 107, 107);
+        position: sticky;
+        top:0;
+        width:100vw;
+        height:4vh;
+        z-index: 1000;
+    }
+    .sticky-nav-list{
+        display: flex;
+        list-style: none;
+        align-items: center;
+    }
+    .sticky-nav-list button{
+        font-family:  Merriweather Sans;
+        font-size: 1.25em;
+        color:rgb(219, 200, 200);
+        height: 4vh;
+        background-color: transparent;
+        border: none;
+        padding-left: 2%;
+        padding-right: 2%;
+        display: inline;
+    }
+    .sticky-nav-list button:hover{
+        color:cornsilk;
+    }
+    .sticky-nav-list button:active{
+        color:orangered;
+    }
+    
+    body{
+        margin: 0;
+        width: 100vw;
+        height: 100vh;
+    }
+    .page{
+        width: 100vw;
+        height: 100vh;
+    }
+    .color{ 
+        background-color: rgb(40, 42, 54);
+    }
+    .mid-color{
+        background-color: rgb(165, 110, 96);
+    }
+    .white{
+        background-color: rgb(255, 255, 255);
+    }
+    .optionContainer{
+        position: relative;
+        justify-content: center;
+        padding-top: 20vh;
+    }
+    .mainName{
+        color: rgb(245, 10, 10);
+        /* background-color: aqua; */
+        display: flex;
+        justify-content: center;
+        font-size: 50px;
+        font-family: Indie Flower;
+        margin-bottom: -0.5%;
+    }
+    .optionButton{
+        display: block;
+        width: 100%;
+        font-family: Indie Flower;
+        font-size: 60px;
+        color:white;
+        background-color: transparent;
+        border:none;
+        transition: 0.25s;
+    }
+    .optionButton:active{
+        color:aqua;
+    }
+    .optionButton:hover{
+        font-size: 80px;
+        color:rgb(33, 184, 138);
+    }
+    .about-page{
+        padding-top: 10vh;
+        display: flex;
+    }
+    .slideShowSide{
+        margin-left: 5vw;
+        margin-right:5vw;
+        z-index: 1;
+    }
+    .slideshow {
+        margin: 0 auto;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width:40vw;
+        height: 40vw;
+        max-width: 40vw;
+    }
+    .slide{
+        width: 30vw;
+        height: 30vw;
+        display: inline-block;
+        border-radius: 10%;
+    }
+    .infoPage{
+        color:white;
+        margin-top: 5vh;
+        margin-left: 2.5vw;
+        width:39vw;
+        height:80vh;
+    }
+    .infoPage h1{
+        margin-top: 2%;
+        font-family: Original Surfer, Secular One;
+        font-size: xx-large;
+    }
+    .infoPage p{
+        margin-top: 1%;
+        font-size: x-large;
+        text-align:left;
+        font-family: Raleway,"Open Sans";
+    }
+
+    .portfolio-page{
+        width: 100vw;
+        height: 100vh;
+        padding-top: 5vh;
+    }
+    .top-projects{
+        font-family: Cabin;
+        font-size: 300%;
+        padding: 1vw;
+        text-align: center;
+        color:rgba(255, 255, 255, 0.781);
+        cursor:default;
+    }
+    .portfolio-slideshow {
+        overflow:hidden;
+        display: inline-grid;
+        grid-template-columns: 25vw 25vw 25vw 25vw;
+        grid-template-rows: 40vh auto 40vh;
+    }
+    .portfolio-slide{
+        background-color: #503e3e8f;
+        margin-left:2.5vw;
+        margin-right:2.5vw;
+        width: 20vw;
+        height: 35vh;
+        display: inline-block;
+        box-shadow: 0px 10px 13px -7px #000000;
+    }
+    .portfolio-slide:hover{
+        box-shadow: 0px 8px 13px -7px #12cc9d;
+        animation: headShake 1000ms;
+    }
+    .portfolio-slide:hover .portfolio-slide-details h3{
+        color:#12cc9d;
+    }
+    .portfolio-slide-details{
+        padding: 10%;
+        color:white;
+    }
+    .portfolio-slide-details h3{
+        text-align: left;
+        width: 100%;
+        font-family: Merriweather Sans;
+        font-size: 200%;
+    }
+    .portfolio-slide-details p{
+        margin-top:5%;
+        width:100%;
+        text-align: left;
+        font-family: Raleway;
+        font-size: 125%;
+    }
+    
+}
+@media screen and (max-width:1024px) {
+    *{
+        margin: 0;
+        max-width: 100%;
+    }
+    
+    button{
+        outline:none;
+    }
+    
+    ::-webkit-scrollbar{
+        width: 6px;
+        background-color: DarkSlateGray;
+    }
+    ::-webkit-scrollbar-thumb{
+        background-color: red;
+    }
+
+    #sticky-nav-bar{
+        background-color: rgb(75, 107, 107);
+        position: sticky;
+        top:0;
+        width:100vw;
+        height:4vh;
+        z-index: 1000;
+    }
+    .sticky-nav-list{
+        display: flex;
+        list-style: none;
+        align-items: center;
+    }
+    .sticky-nav-list button{
+        font-family:  Merriweather Sans;
+        font-size: 250%;
+        color:rgb(219, 200, 200);
+        height: 4vh;
+        background-color: transparent;
+        border: none;
+        padding-left: 2%;
+        padding-right: 2%;
+        display: inline;
+    }
+    .sticky-nav-list button:hover{
+        color:cornsilk;
+    }
+    .sticky-nav-list button:active{
+        color:orangered;
+    }
+    
+    body{
+        margin: 0;
+        width: 100vw;
+        height: 100vh;
+    }
+    .page{
+        width: 100vw;
+        height: 100vh;
+    }
+    .color{ 
+        background-color: rgb(40, 42, 54);
+    }
+    .mid-color{
+        background-color: rgb(47, 94, 95);
+    }
+    .white{
+        background-color: white;
+    }
+    .optionContainer{
+        position: relative;
+        justify-content: center;
+        padding-top: 20vh;
+    }
+    .mainName{
+        color: rgb(245, 10, 10);
+        /* background-color: aqua; */
+        display: flex;
+        justify-content: center;
+        font-size: 50px;
+        font-family: Indie Flower;
+        margin-bottom: -0.5%;
+    }
+    .optionButton{
+        display: block;
+        width: 100%;
+        font-family: Indie Flower;
+        font-size: 300%;
+        color:white;
+        background-color: transparent;
+        border:none;
+        transition: 0.25s;
+    }
+    .optionButton:active{
+        font-size: 250%;
+        color:rgb(33, 184, 138);
+    }
+    .about-page{
+        background-color: rgb(40, 42, 54);
+        padding-top: 1vh;
+    }
+    .slideShowSide{
+        z-index: 1;
+    }
+    .slideshow {
+        margin: 0 auto;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width:30vw;
+        height: 30vh;
+        max-width: 30vw;
+    }
+    .slide{
+        width: 30vw;
+        height: 30vw;
+        display: inline-block;
+        border-radius: 10%;
+    }
+    .infoPage{
+        color:white;
+        margin-top: 5vh;
+        height: 40vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .infoPage h1{
+        margin-top: 2%;
+        font-family: Original Surfer, Secular One;
+        font-size: 400%;
+        text-align:center;
+    }
+    .infoPage p{
+        margin-top: 1%;
+        font-size: 250%;
+        text-align:center;
+        font-family: Raleway,"Open Sans";
+    }
+    .portfolio-page{
+        width: 100vw;
+        height: 100vh;
+        padding-top: 2vh;
+    }
+    .top-projects{
+        font-family: Cabin;
+        font-size: 400%;
+        padding: 6vw;
+        text-align: center;
+        color:rgba(255, 255, 255, 0.781);
+        cursor: pointer;
+    }
+    .portfolio-slideshow {
+        overflow:hidden;
+        display: inline-grid;
+        grid-template-columns: 50vw 50vw;
+        grid-template-rows: 22vh 22vh 22vh 22vh;
+    }
+    .portfolio-slide{
+        background-color: #503e3e8f;
+        margin-left:2.5vw;
+        margin-right:2.5vw;
+        width: 45vw;
+        height: 20vh;
+        display: inline-block;
+        box-shadow: 0px 10px 13px -7px #f3f3f3;
+    }
+    .portfolio-slide:hover{
+        box-shadow: 0px 10px 13px -7px #851d1d;
+    }
+    .portfolio-slide-details{
+        padding: 10%;
+        color:white;
+    }
+    .portfolio-slide-details h3{
+        text-align: left;
+        width: 100%;
+        font-family: Merriweather Sans;
+        font-size: 250%;
+    }
+    .portfolio-slide-details p{
+        margin-top:5%;
+        width:100%;
+        text-align: left;
+        font-family: Raleway;
+        font-size:200%;
+    }
+}

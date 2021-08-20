@@ -1,0 +1,69 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "date": "21:38 21/03/2021",
+      "content": "Blah Blah Blah"
+    },
+    {
+      "id": 2,
+      "date": "22:38 21/03/2021",
+      "content": "Blah Blah Blah2"
+    },
+    {
+      "id": 3,
+      "date": "19:45 26/03/2021",
+      "content": "Blah Blah Blah3"
+    },
+    {
+      "id": 4,
+      "date": "00:16 17/04/2021",
+      "content": "He's only gone and done it lad. Axios is all he needed."
+    },
+    {
+      "id": 5,
+      "date": "01:16 17/04/2021",
+      "content": "This is my first OFFICIAL blog post. The site seems to be working.\n\nImprovements I want to make:\n- Improve the UI obviously\n- Improve animations and stuff\n- Add more \"websitey\" stuff into the site"
+    },
+    {
+      "id": 6,
+      "date": "21:06 17/04/2021",
+      "content": "Birat is cool"
+    },
+    {
+      "id": 7,
+      "date": "20:25 18/04/2021",
+      "content": "This date is going to be the final build for a while as I have now kind of learnt the basics of react. I want to now use this knowledge that I have to make my own CV website.\n\nSee you soon,\n\nBirat Koirala"
+    },
+    {
+      "id": 8,
+      "date": "23:38 30/04/2021",
+      "content": "I think I've kinda messed up here. So obviously, I have right now figured out how to run the json-server and the development server together using the \"concurrently\" node package. However, I have now realised that the entire application looks a tiny bit wonky. \"Wonky?\", you may ask. I will answer with \"yes, wonky.\" The problem that I realised is that the entire UI is running on the root div instead of the body div and when I tried to implement the class system for dark mode, I accidentally miscalculated the fact that I tried to put the entire thing in one div and change the class of that div. While that is not a completely shambolic idea, it also poses a risk that the viewport at the bottom will be abruptly cut which is what is happening right now.\n\nSo what will I try and do?\n\nI will fix the problem by actually putting the posts inside a div. Not only will that make it look cleaner but I can also then fit the entire React Component it all in one page in my portfolio site."
+    },
+    {
+      "id": 9,
+      "date": "23:38 30/04/2021",
+      "content": "Making sure it works."
+    },
+    {
+      "id": 10,
+      "date": "23:41 30/04/2021",
+      "content": "Furthermore, I need to implement an online database system instead of local. If I do it locally, I have to upload all of my changes and additions to db.json file which uploads them to github (which is not preferred)."
+    },
+    {
+      "id": 11,
+      "date": "00:03 01/05/2021",
+      "content": "Hello"
+    },
+    {
+      "id": 12,
+      "date": "00:03 01/05/2021",
+      "content": "componentDidUpdate() is a lifesaver."
+    },
+    {
+      "id": 13,
+      "date": "17:40 01/05/2021",
+      "content": "Update: componentDidUpdate() is NOT a lifesaver."
+    }
+  ]
+}
