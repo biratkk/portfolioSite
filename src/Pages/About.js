@@ -6,7 +6,7 @@ import image2 from '../Images/Slideshow_Images/Image2.jpg'
 import image3 from '../Images/Slideshow_Images/Image3.jpg'
 import image4 from '../Images/Slideshow_Images/Image4.jpg'
 class About extends Component{
-    constructor(){
+    constructor(){ 
         super();
         this.images = [
             image1,
