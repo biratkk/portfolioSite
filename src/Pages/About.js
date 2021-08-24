@@ -17,7 +17,7 @@ class About extends Component{
     }
     render(){
         return(
-            <div class = "page about-page color" >
+            <div class = "page about-page color1" >
                 <div class = "slideShowSide">
                     <AutoSlideShowImage photoUrls = {this.images}/>
                 </div>

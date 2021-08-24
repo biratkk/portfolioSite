@@ -64,6 +64,11 @@
       "id": 13,
       "date": "17:40 01/05/2021",
       "content": "Update: componentDidUpdate() is NOT a lifesaver."
+    },
+    {
+      "id":14,
+      "date": "09:59 24/08/2021",
+      "content":"I'm not sure where to begin. It's been a while since I recorded any sort of progress in these blog posts. Nevertheless, I do want to be consistent. So here is my progress upto now:\n1. I have learnt React to a decent standard having built a connect 4 game in React with an express backend.\n2. I have also surpassed my own expectations in codewars recently, having reached nearly 1000 points (around 50 left to go). \n3. I am now working on my portfolio site (this) where I've integrated my blog area into as well. I am planning to make another front-end to add to the blog content so that I don't have to write into a JSON like I am currently doing."
     }
   ]
 }

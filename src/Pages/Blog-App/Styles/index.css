@@ -37,7 +37,8 @@
 body{
     width:100vw;
     height: 100vh;
-    background-color: var(--background-default);
+    /* background-color: var(--background-default); */
+    background: linear-gradient(rgb(115, 96, 201),var(--background-default))
 }
 .title{
     text-align: center;

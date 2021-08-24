@@ -1,4 +1,3 @@
-import { buildQueries } from '@testing-library/dom';
 import React from 'react'
 
 export class SlideShowPosts extends React.Component{
@@ -52,7 +51,9 @@ export class AutoSlideShowImage extends React.Component{
         return (
             <div class = "slideshow">
                     <img className = "slide" 
-                    src = {this.props.photoUrls[this.state.index]} alt = "Failed to load image(s)"/>
+                    src = {this.props.photoUrls[this.state.index]} 
+                    alt = "Failed to load image(s)"
+                    />
             </div>
         );
     }

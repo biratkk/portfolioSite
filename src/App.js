@@ -2,6 +2,7 @@ import React from 'react'
 import About from './Pages/About'
 import HomePage from './Pages/HomePage'
 import Portfolio from './Pages/Portfolio'
+import BlogPage from './Pages/Blog-App/Blog-App'
 
 export default function App(){
     return(
@@ -9,6 +10,7 @@ export default function App(){
             <HomePage/>
             <About/>
             <Portfolio/>
+            <BlogPage/>
         </div>
     )
 }

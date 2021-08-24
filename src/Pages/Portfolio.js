@@ -25,7 +25,7 @@ class PostsContainer extends Component{
 class Portfolio extends Component{
     render(){
         return(
-            <div class = "page portfolio-page mid-color">
+            <div class = "page portfolio-page color2">
                 <TopProjects/>
                 <PostsContainer/>
             </div>

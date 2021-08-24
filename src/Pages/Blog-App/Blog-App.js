@@ -1,7 +1,6 @@
 import React,{Component} from 'react'
-import axios from 'axios'
-import AddBlog from './BlogTypes/AddBlog';
 import PastBlog from './BlogTypes/PastBlog'
+import res from './db.json';
 
 
 class App extends Component{
@@ -16,10 +15,9 @@ class App extends Component{
         this.renderPosts();
     }
 
-    async renderPosts(){
+    renderPosts(){
         try{
-        const res = await axios.get("http://localhost:1234/posts");
-        const posts = res.data;
+        const posts = res.posts;
         this.setState({
             Posts:posts
         })
@@ -33,9 +31,9 @@ class App extends Component{
         const posts = this.state.Posts?.map
         (post => <PastBlog key = {post.id} date = {post.date} content = {post.content}/>);
         return(
-            <div id = "virtual-root" className = "blog-page">
+            <div id = "virtual-root" className = "blog-page page color3">
                 <div className = "title">
-                    <h1>My Blogs</h1>
+                    <h1>My Blogs - a sketch of my journey through development :)</h1>
                 </div>
                 <div className = "posts-container">
                     {posts.reverse()}
