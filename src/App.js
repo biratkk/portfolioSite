@@ -3,7 +3,7 @@ import About from './Pages/About'
 import HomePage from './Pages/HomePage'
 import Portfolio from './Pages/Portfolio'
 import BlogPage from './Pages/Blog-App/Blog-App'
-
+import Footer from './Pages/Footer'
 export default function App(){
     return(
         <div>
@@ -11,6 +11,7 @@ export default function App(){
             <About/>
             <Portfolio/>
             <BlogPage/>
+            <Footer/>
         </div>
     )
 }

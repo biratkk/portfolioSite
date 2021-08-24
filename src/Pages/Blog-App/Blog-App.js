@@ -31,8 +31,8 @@ class App extends Component{
         const posts = this.state.Posts?.map
         (post => <PastBlog key = {post.id} date = {post.date} content = {post.content}/>);
         return(
-            <div id = "virtual-root" className = "blog-page page color3">
-                <div className = "title">
+            <div className = "blog-page page color3">
+                <div className = "blog-title">
                     <h1>My Blogs - a sketch of my journey through development :)</h1>
                 </div>
                 <div className = "posts-container">

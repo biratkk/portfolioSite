@@ -1,32 +1,7 @@
 import React from 'react'
 
-export class SlideShowPosts extends React.Component{
-    constructor(){
-        super();
-        this.state = {
-            page:1
-        }
-    }
-    render(){
-        return (
-                <div className = "portfolio-slide">
-                    {/* <div class = "portfolio-slide-image">
-                    <img alt = "Image not found" src = {this.props.imgSrc} />
-                    </div>                 */}
-                    <div class = "portfolio-slide-details">
-                        <h3>
-                            {this.props.heading}
-                        </h3>
-                        <p>
-                            {this.props.paragraph}
-                        </p>
-                    </div>
-                </div>
-        );
-    }
-}
 
-export class AutoSlideShowImage extends React.Component{
+export default class SlideShowImage extends React.Component{
     constructor(){
         super();
         this.state = {
