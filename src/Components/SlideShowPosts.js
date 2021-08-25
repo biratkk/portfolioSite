@@ -15,7 +15,7 @@ export default function SlideShowPosts ({ heading, paragraph, utilisedSystems}) 
                 flipDirection = "horizontal"
                 flipSpeedBackToFront = {0.2}
                 flipSpeedFrontToBack = {0.2}>
-                <div class = "portfolio-slide-details">
+                <div className = "portfolio-slide-details">
                     <h3>
                         {heading}
                     </h3>
@@ -23,9 +23,9 @@ export default function SlideShowPosts ({ heading, paragraph, utilisedSystems}) 
                         {paragraph}
                     </p>
                 </div>
-                <div class = "portfolio-slide-details">
+                <div className = "portfolio-slide-details-back">
                     <h3>
-                        Used Systems:
+                        Systems Utilised:
                     </h3>
                     <p>
                         {getBulletDiv(utilisedSystems)}

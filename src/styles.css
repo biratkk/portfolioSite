@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');/*Cabin*/
 @import url("https://fonts.googleapis.com/css?family=Montserrat");
 @import url("https://fonts.googleapis.com/css?family=Comfortaa");
-@media screen and (min-width:1025px) {
+@media screen and (min-width:1081px) {
     *{
         margin: 0;
         max-width: 100%;
@@ -212,6 +212,26 @@
         font-size: 100%;
         cursor:auto;
     }
+    .portfolio-slide-details-back{
+        padding: 10%;
+        color:white;
+    }
+    .portfolio-slide-details-back h3{
+        text-align: left;
+        width: 100%;
+        font-family: Cabin;
+        font-weight: 100;
+        font-size: 150%;
+        cursor: pointer;
+    }
+    .portfolio-slide-details-back p{
+        margin-top:5%;
+        width:100%;
+        text-align: left;
+        font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 100%;
+        cursor:auto;
+    }
     .blog-title{
         text-align: center;
         padding: none;
@@ -317,15 +337,16 @@
 
 
 
-
-
-
-
-
-@media screen and (max-width:1024px) {
+@media screen and (max-width:1080px) {
     *{
         margin: 0;
         max-width: 100%;
+    }
+    
+    .middle{
+        display:flex;
+        align-items: center;
+        justify-content: center;
     }
     
     button{
@@ -333,7 +354,7 @@
     }
     
     ::-webkit-scrollbar{
-        width: 6px;
+        width: 0px;
         background-color: DarkSlateGray;
     }
     ::-webkit-scrollbar-thumb{
@@ -355,7 +376,7 @@
     }
     .sticky-nav-list button{
         font-family:  Merriweather Sans;
-        font-size: 250%;
+        font-size: 1.25em;
         color:rgb(219, 200, 200);
         height: 4vh;
         background-color: transparent;
@@ -370,7 +391,6 @@
     .sticky-nav-list button:active{
         color:orangered;
     }
-    
     body{
         margin: 0;
         width: 100vw;
@@ -381,13 +401,16 @@
         height: 100vh;
     }
     .color{ 
-        background-color: rgb(40, 42, 54);
+        background: linear-gradient( rgb(135, 47, 170), rgb(81, 68, 139)) ;
     }
-    .mid-color{
-        background-color: rgb(47, 94, 95);
+    .color1{
+        background: linear-gradient( rgb(81, 68, 139), rgb(98, 82, 172) );
     }
-    .white{
-        background-color: white;
+    .color2{
+        background: linear-gradient( rgb(98, 82, 172) , rgb(115, 96, 201) );
+    }
+    .color3{
+        background: linear-gradient( rgb(115, 96, 201) , rgb(98, 82, 172)  );
     }
     .optionContainer{
         position: relative;
@@ -411,103 +434,220 @@
         color:white;
         background-color: transparent;
         border:none;
-        transition: 0.25s;
+        cursor: pointer;
+        transition: 0.1s;
     }
     .optionButton:active{
-        font-size: 250%;
         color:rgb(33, 184, 138);
+        font-size: 330%;
     }
     .about-page{
-        background-color: rgb(40, 42, 54);
-        padding-top: 1vh;
+        display: block;
     }
     .slideShowSide{
+        padding-top: 10vw;
         z-index: 1;
     }
     .slideshow {
+        margin-top: 20vw 0 0 0;
         margin: 0 auto;
         overflow: hidden;
         display: flex;
         justify-content: center;
         align-items: center;
-        width:30vw;
-        height: 30vh;
-        max-width: 30vw;
+        width:60vw;
+        height:60vw;
     }
     .slide{
-        width: 30vw;
-        height: 30vw;
+        width: 60vw;
+        height: 60vw;
         display: inline-block;
         border-radius: 10%;
+        box-shadow: 10px 10px 10vw -100px #000000;
     }
+
     .infoPage{
         color:white;
-        margin-top: 5vh;
-        height: 40vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        margin-top: 3vh;
+        margin-left: 2.5vw;
+        width:90vw;
+        height:80vh;
     }
     .infoPage h1{
         margin-top: 2%;
         font-family: Original Surfer, Secular One;
-        font-size: 400%;
-        text-align:center;
+        font-size: 5.5vw;
     }
     .infoPage p{
         margin-top: 1%;
-        font-size: 250%;
-        text-align:center;
+        font-size: 4vw;
+        text-align:left;
         font-family: Raleway,"Open Sans";
     }
+
     .portfolio-page{
         width: 100vw;
         height: 100vh;
-        padding-top: 2vh;
+        padding-top: 2.5vh;
     }
     .top-projects{
         font-family: Cabin;
-        font-size: 400%;
-        padding: 6vw;
+        font-size: 6vw;
+        padding: 1vw;
         text-align: center;
         color:rgba(255, 255, 255, 0.781);
-        cursor: pointer;
+        cursor:default;
     }
     .portfolio-slideshow {
-        overflow:hidden;
+        overflow:auto;
         display: inline-grid;
-        grid-template-columns: 50vw 50vw;
-        grid-template-rows: 22vh 22vh 22vh 22vh;
+        /* grid-template-columns: 25vw 25vw 25vw 25vw;
+        grid-template-rows: 40vh auto 40vh; */
     }
     .portfolio-slide{
-        background-color: #503e3e8f;
+        background-color: #634d9b8f;
         margin-left:2.5vw;
         margin-right:2.5vw;
-        width: 45vw;
-        height: 20vh;
-        display: inline-block;
-        box-shadow: 0px 10px 13px -7px #f3f3f3;
+        width: 95vw;
+        height: 28vw;
+        display: block;
+        box-shadow: 0px 10px 13px -7px #000000;
+        transition: 0.25s;
     }
     .portfolio-slide:hover{
-        box-shadow: 0px 10px 13px -7px #851d1d;
-        cursor:pointer;
+        box-shadow: 0px 8px 13px -7px #12cc9d;
+        animation: swing 1000ms;
+    }
+    .portfolio-slide-details-back:hover .portfolio-slide-details-back h3{
+        color:#12cc9d
+    }
+    .portfolio-slide:hover .portfolio-slide-details h3{
+        color:#12cc9d;
     }
     .portfolio-slide-details{
-        padding: 10%;
+        padding: 3%;
         color:white;
-        cursor:pointer;
     }
     .portfolio-slide-details h3{
         text-align: left;
         width: 100%;
-        font-family: Merriweather Sans;
-        font-size: 250%;
+        font-family: Cabin;
+        font-weight: 100;
+        font-size: 5vw;
+        cursor: pointer;
     }
     .portfolio-slide-details p{
-        margin-top:5%;
         width:100%;
         text-align: left;
-        font-family: Raleway;
-        font-size:200%;
+        font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 4vw;
+        cursor:auto;
     }
+    .portfolio-slide-details-back{
+        padding: 3%;
+        color:white;
+    }
+    .portfolio-slide-details-back h3{
+        text-align:left;
+        width: 100%;
+        font-family: Cabin;
+        font-weight: 100;
+        font-size: 4vw;
+        cursor: pointer;
+    }
+    .portfolio-slide-details-back p{
+        width:100%;
+        text-align: justify;
+        font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 4vw;
+        cursor:auto;
+    }
+    .portfolio-slide-details-back ul{
+        columns:2;
+    }
+
+    .blog-title{
+        text-align: center;
+        padding: none;
+        padding-top: 3%;
+        color: rgb(255, 255, 255);
+        font-family: "Montserrat";
+        font-size: 3vw;
+    }
+    .pastBlog{
+        position: relative;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 2%;
+    }
+    .posts-container{
+        margin-top: 2vh;
+        padding: 0 0 2% 0;
+        height: 80vh;
+        overflow-y: scroll;
+    }
+    .title-date{
+        padding: 1%;
+        position: relative;
+        background-color: rgb(0, 46, 46);
+        color:white;
+        font-family: "Montserrat";
+        font-size: 4vw;
+        transition: 0.25s;
+    }
+    .title-date:hover{
+        background-color: aqua;
+        color:black;
+    }
+    .content{
+        margin-top: 5px;
+        padding: 1%;
+        background-color: white;
+        color:black;
+        font-family: "Comfortaa",sans-serif;
+        font-size: 3.5vw;
+        font-weight: 500;
+        white-space: pre-wrap;
+    }
+    .effect1{
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    .footer {
+        display: block;
+        z-index: 14;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height:20vh;
+        background:rgb(37, 37, 37) ;
+        color: white;
+        text-align: center;
+    }
+    .footer-header{
+        padding-top: 2vh;
+        padding-bottom: 1vh;
+        font-family: "Montserrat";
+        font-size: 7vw;
+        text-align: center;
+    }
+    .contact-logo{
+        padding:5vw;
+        cursor: pointer;
+        width:10vw;
+        height:10vw;
+        transition: 0.2s;
+        border-radius: 100%;
+    }
+    .contact-logo:hover{
+        width:15vw;
+        height:15vw;
+        padding:0;
+    }
+    
 }
+
+
+
+
+

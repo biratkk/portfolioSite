@@ -35,9 +35,9 @@ export default function () {
                         className = "contact-logo">
                         </img>
                     </a>
-                    <a target = "_blank" id = "Mail" href = "mailto: koiralabirat@gmail.com">
+                    <a target = "_blank" id = "Mail" href = "mailto:koiralabirat@gmail.com">
                         <img
-                        src = "http://assets.stickpng.com/thumbs/58485698e0bb315b0f7675a8.png"
+                        src = "https://freepikpsd.com/media/2019/10/mail-logo-png-white-8-Transparent-Images.png"
                         className = "contact-logo">
                         </img>
                     </a>

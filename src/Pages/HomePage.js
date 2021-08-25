@@ -46,6 +46,17 @@ class OptionContainer extends Component{
                     Blog
                 </Link>
             </button>
+            <button id = "contactMeButton" class = "optionButton">
+            <Link 
+                activeClass = "active"
+                className="optionButton" 
+                to="footer"
+                spy={true}
+                smooth={true}
+                duration={500}>
+                    Contact me
+                </Link>
+            </button>
         </div>
         );
     }
