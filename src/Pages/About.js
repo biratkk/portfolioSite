@@ -1,5 +1,5 @@
 import React,{Component} from 'react'
-import {AutoSlideShowImage} from '../Components/Slideshow'
+import SlideShowImage from '../Components/SlideShowImage'
 import {about} from '../staticDB.json'
 import image1 from '../Images/Slideshow_Images/Image1.jpg'
 import image2 from '../Images/Slideshow_Images/Image2.jpg'
@@ -19,7 +19,7 @@ class About extends Component{
         return(
             <div class = "page about-page color1" >
                 <div class = "slideShowSide">
-                    <AutoSlideShowImage photoUrls = {this.images}/>
+                    <SlideShowImage photoUrls = {this.images}/>
                 </div>
                 <div class = "infoPage">
                     <Information/>

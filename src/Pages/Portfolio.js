@@ -1,6 +1,6 @@
 import React,{Component} from 'react'
 import {portfolio} from '../staticDB.json'
-import {SlideShowPosts} from '../Components/Slideshow'
+import SlideShowPosts from '../Components/SlideShowPosts'
 
 class PostsContainer extends Component{
     constructor(){
@@ -12,6 +12,7 @@ class PostsContainer extends Component{
                 <SlideShowPosts
                 heading = {value.header}
                 paragraph = {value.paragraph}
+                utilisedSystems = {value.utilisedSystems}
                 />
             )
         })
@@ -36,7 +37,7 @@ function TopProjects(){
     return (
         <div class = 'top-projects'>
             <p>
-            My Top Projects
+            My Top Projects (hover for more)
             </p>
         </div>
     )

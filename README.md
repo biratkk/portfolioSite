@@ -9,4 +9,4 @@ If you want a simple version of the above (and are not such a colourful person),
 
 ## To-do list (for the editing branch):
 
-- [ ] Find out the problem with the colour of the page of the blog page and why the gradient doens't coordinate with the rest of the site.
+- [x] Find out the problem with the colour of the page of the blog page and why the gradient doens't coordinate with the rest of the site.

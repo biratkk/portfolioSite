@@ -1,5 +1,5 @@
 import React from 'react'
-import "../Styles/index.css"
+import "../../../styles.css"
 
 
 function PastBlog(props){
