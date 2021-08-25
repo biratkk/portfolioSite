@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/portfolioSite/static/css/main.8fd77e75.chunk.css",
-    "main.js": "/portfolioSite/static/js/main.22fabf7f.chunk.js",
-    "main.js.map": "/portfolioSite/static/js/main.22fabf7f.chunk.js.map",
+    "main.css": "/portfolioSite/static/css/main.f0165e8d.chunk.css",
+    "main.js": "/portfolioSite/static/js/main.82338d3e.chunk.js",
+    "main.js.map": "/portfolioSite/static/js/main.82338d3e.chunk.js.map",
     "runtime-main.js": "/portfolioSite/static/js/runtime-main.6db22d67.js",
     "runtime-main.js.map": "/portfolioSite/static/js/runtime-main.6db22d67.js.map",
-    "static/js/2.31fec8b4.chunk.js": "/portfolioSite/static/js/2.31fec8b4.chunk.js",
-    "static/js/2.31fec8b4.chunk.js.map": "/portfolioSite/static/js/2.31fec8b4.chunk.js.map",
+    "static/js/2.68b7bd09.chunk.js": "/portfolioSite/static/js/2.68b7bd09.chunk.js",
+    "static/js/2.68b7bd09.chunk.js.map": "/portfolioSite/static/js/2.68b7bd09.chunk.js.map",
     "index.html": "/portfolioSite/index.html",
-    "static/css/main.8fd77e75.chunk.css.map": "/portfolioSite/static/css/main.8fd77e75.chunk.css.map",
-    "static/js/2.31fec8b4.chunk.js.LICENSE.txt": "/portfolioSite/static/js/2.31fec8b4.chunk.js.LICENSE.txt",
+    "static/css/main.f0165e8d.chunk.css.map": "/portfolioSite/static/css/main.f0165e8d.chunk.css.map",
+    "static/js/2.68b7bd09.chunk.js.LICENSE.txt": "/portfolioSite/static/js/2.68b7bd09.chunk.js.LICENSE.txt",
     "static/media/Image1.7211b92c.jpg": "/portfolioSite/static/media/Image1.7211b92c.jpg",
     "static/media/Image2.b479f245.jpg": "/portfolioSite/static/media/Image2.b479f245.jpg",
     "static/media/Image3.595f9240.jpg": "/portfolioSite/static/media/Image3.595f9240.jpg",
@@ -17,8 +17,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.6db22d67.js",
-    "static/js/2.31fec8b4.chunk.js",
-    "static/css/main.8fd77e75.chunk.css",
-    "static/js/main.22fabf7f.chunk.js"
+    "static/js/2.68b7bd09.chunk.js",
+    "static/css/main.f0165e8d.chunk.css",
+    "static/js/main.82338d3e.chunk.js"
   ]
 }
