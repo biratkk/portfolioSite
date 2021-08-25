@@ -430,7 +430,7 @@
         display: block;
         width: 100%;
         font-family: Indie Flower;
-        font-size: 300%;
+        font-size: 10vw;
         color:white;
         background-color: transparent;
         border:none;
@@ -632,22 +632,23 @@
         text-align: center;
     }
     .contact-logo{
-        padding:5vw;
+        padding:4vw;
         cursor: pointer;
         width:10vw;
         height:10vw;
         transition: 0.2s;
         border-radius: 100%;
     }
+    .contact-logo:hover .footer-contactInfo{
+        padding: 0;
+    }
     .contact-logo:hover{
-        width:15vw;
-        height:15vw;
-        padding:0;
+        width:12vw;
+        height:12vw;
+        padding:3vw;
     }
     
 }
-
-
 
 
 
