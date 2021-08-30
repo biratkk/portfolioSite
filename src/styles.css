@@ -159,12 +159,11 @@
     .portfolio-page{
         width: 100vw;
         height: 100vh;
-        padding-top: 5vh;
     }
     .top-projects{
         font-family: Cabin;
-        font-size: 300%;
-        padding: 1vw;
+        font-size: 2vw;
+        padding: 2vw 1vw 1vw 1vw;
         text-align: center;
         color:rgba(255, 255, 255, 0.781);
         cursor:default;
@@ -187,7 +186,6 @@
     }
     .portfolio-slide:hover{
         box-shadow: 0px 8px 13px -7px #12cc9d;
-        animation: swing 1000ms;
     }
     .portfolio-slide:hover .portfolio-slide-details h3{
         color:#12cc9d;
@@ -232,6 +230,82 @@
         font-size: 100%;
         cursor:auto;
     }
+    .back-button{
+        float: left;
+        padding: 1vw 1vw 1vw 1vw;
+        height:3vw;
+        width:3vw;
+    }
+    .back-button img{
+        border-radius: 50%;
+    }
+    .project-page{
+        background-color: rgb(33, 184, 138) ;
+        /* #634d9b8f; */
+        width:100vw;
+        height: 100vh;
+        overflow: hidden;
+    }
+    .project-page-header{
+        height:10vh;
+        width:100vw;
+    }
+    .project-page-title{
+        --animate-duration:0.5s;
+        overflow: hidden;
+        text-align: left;
+        padding-top: 1.5vh;
+    }
+    .project-page-title p{
+        color:#FAF3DD;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size:3vw;
+        padding-right: 5vw;
+    }
+    .project-page-content{
+        /* clear: both; */
+        width:100vw;
+        height:90vh;
+        background: linear-gradient(rgb(98, 82, 172),  rgb(115, 96, 201));
+        /* background-color: rgb(33, 184, 138); */
+        overflow-y: scroll;
+    }
+    .project-content-text{
+        margin-top: -2vw;
+        color:white;
+        font-family:  Helvetica, sans-serif;
+        font-size: 2vw;
+        padding: 2vw;
+    }
+    .project-content-container{
+        padding-top: 5vh;
+        width:100vw;
+        height:40vh;
+    }
+    .project-content-video{
+        display: flex;
+        justify-content: center;
+        align-self: center;
+        width: 70vw;
+        margin: 2.5vh 15vw 0vw 15vw;
+        box-shadow: 0px 10px 13px -7px #000000;
+    }
+    .project-proceed-button{
+        border: none;
+        outline: none;
+        background-color: #634d9b ;
+        color:white;
+        border-radius: 2%;
+        width: 15vw;
+        height: 10vh;
+        margin-left:42vw;
+        font-size: 2vw;
+    }
+    .project-proceed-button:hover{
+        background-color: rgb(20, 95, 2);
+        box-shadow: 0px 10px 13px -7px #634d9b8f;
+    }
+
     .blog-title{
         text-align: center;
         padding: none;
