@@ -29,7 +29,7 @@ export default function () {
                         className = "contact-logo">
                         </img>
                     </a>
-                    <a target = "_blank" id = "Facebook">
+                    <a target = "_blank" id = "Facebook" href = "https://www.facebook.com/birat.koirala.3/">
                         <img 
                         src = "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Facebook_Logo_%282019%29.png/1024px-Facebook_Logo_%282019%29.png"
                         className = "contact-logo">

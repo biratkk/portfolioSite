@@ -1,8 +1,10 @@
 import React,{Component} from 'react'
 import {Link} from 'react-scroll'
+import TypewriterComponent from 'typewriter-effect';
+import useWindowDimensions from '../../personal-lib/WindowSize';
 function OptionContainer(){
         return (
-        <div id = "optionContainer" class = "optionContainer">
+        <div id = "optionContainer" class = "optionContainer center startPage">
             <button id = "aboutPageButton" class = "optionButton">
             <Link 
                 activeClass = "active"
@@ -57,21 +59,43 @@ function OptionContainer(){
         );
     }
 
+    /**
+     * 
+     * @returns 
+     */
 
-class HomePage extends Component{
-    constructor(){
-        super();
+function Disclaimer(){
+    const isOnMobile = useWindowDimensions().width < 1080;
+    if(isOnMobile){
+        return (
+            <div>
+                {isOnMobile ? 
+                <div class = "center disclaimer">
+                <TypewriterComponent onInit = {typewriter => {
+                    typewriter
+                    .changeDelay(10)
+                    .typeString('You are using the resolution of a mobile/tablet device. ')
+                    .pauseFor(1000)
+                    .typeString('Please consider opening this site in a PC for the best experience.').start();
+                }}/>
+                </div> : null}
+            </div>        
+        )
     }
-    render(){
+    return null;
+    
+}
+
+
+function HomePage(){
+        const isOnMobile = useWindowDimensions().width < 1080;
         return  (
             <div class = "page startPage color">
-                <div class = "center startPage">
+                <Disclaimer/>
                 <OptionContainer/>
-                </div>
             </div>
         );
     }
-}
 
 
 

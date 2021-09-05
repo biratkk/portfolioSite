@@ -5,7 +5,6 @@ import Portfolio from './Pages/Portfolio/Portfolio'
 import BlogPage from './Pages/Blog-App/Blog-App'
 import Footer from './Pages/Footer/Footer'
 export default function App(){
-
     return(
         <div>
             <HomePage/>
