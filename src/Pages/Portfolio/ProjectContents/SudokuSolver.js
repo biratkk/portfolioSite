@@ -3,10 +3,15 @@ import Title from './ReusableComponents/Title'
 import {Content} from './ReusableComponents/Content'
 
 export default function SudokuSolver(){
+    let content = 
+    `
+
+    `
+
     return (
         <div className = "project-page">
             <Title title = "Sudoku Solver"/>
-            <Content/>
+            <Content content = {content}/>
         </div>
     )
 }
