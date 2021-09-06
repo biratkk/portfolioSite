@@ -1,6 +1,7 @@
 import React from 'react'
 import Title from './ReusableComponents/Title'
-import {Content} from './ReusableComponents/Content'
+import {ContentWithVideo} from './ReusableComponents/Content'
+import Video from '../ProjectContents/Videos/SudokuSolver.mkv'
 
 export default function SudokuSolver(){
     let content = 
@@ -11,7 +12,7 @@ export default function SudokuSolver(){
     return (
         <div className = "project-page">
             <Title title = "Sudoku Solver"/>
-            <Content content = {content}/>
+            <ContentWithVideo content = {content} video = {Video}/>
         </div>
     )
 }

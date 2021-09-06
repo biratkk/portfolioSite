@@ -28,7 +28,7 @@ export function ContentWithVideo({video, content}){
     );
     
     let VideoComponent = (
-        <video className = "project-content-video" src = {video} autoPlay = {true} controls = {true}/>
+        <video className = "project-content-video" muted = {true}src = {video} autoPlay = {true} controls = {true}/>
     );
 
     const [main, setMain] = useState(textComponent)
