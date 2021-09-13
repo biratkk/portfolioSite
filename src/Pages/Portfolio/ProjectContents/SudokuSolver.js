@@ -1,12 +1,12 @@
 import React from 'react'
 import Title from './ReusableComponents/Title'
 import {ContentWithVideo} from './ReusableComponents/Content'
-import Video from '../ProjectContents/Videos/SudokuSolver.mkv'
+import Video from './Resources/Videos/SudokuSolver.mkv'
 
 export default function SudokuSolver(){
     let content = 
     `
-
+    Coming Soon!
     `
 
     return (

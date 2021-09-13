@@ -1,16 +1,17 @@
 import React from 'react'
 import Title from './ReusableComponents/Title'
-import {Content} from './ReusableComponents/Content'
+import Video from './Resources/Videos/StudyDashboard.mkv'
+import {ContentWithVideo} from './ReusableComponents/Content'
 
 export default function StudyDashboard(){
     let content = 
     `
-
+    Coming Soon!
     `
     return (
         <div className = "project-page">
             <Title title = "Study Dashboard"/>
-            <Content content = {content}/>
+            <ContentWithVideo content = {content} video = {Video}/>
         </div>
     )
 }

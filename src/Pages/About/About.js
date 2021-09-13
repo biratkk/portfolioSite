@@ -1,10 +1,10 @@
 import React,{Component} from 'react'
 import SlideShowImage from './SlideShowImage'
 import {about} from '../../staticDB.json'
-import image1 from '../../Images/Slideshow_Images/Image1.jpg'
-import image2 from '../../Images/Slideshow_Images/Image2.jpg'
-import image3 from '../../Images/Slideshow_Images/Image3.jpg'
-import image4 from '../../Images/Slideshow_Images/Image4.jpg'
+import image1 from './Slideshow_Images/Image1.jpg'
+import image2 from './Slideshow_Images/Image2.jpg'
+import image3 from './Slideshow_Images/Image3.jpg'
+import image4 from './Slideshow_Images/Image4.jpg'
 class About extends Component{
     constructor(){ 
         super();

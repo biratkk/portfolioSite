@@ -2,7 +2,7 @@ import React from 'react'
 import BackButton from './ReusableComponents/BackButton'
 import Title from './ReusableComponents/Title'
 import {ContentWithVideo} from './ReusableComponents/Content'
-import TypingSpeedMeasurerVideo from './Videos/TypingSpeedMeasurer.mkv'
+import TypingSpeedMeasurerVideo from './Resources/Videos/TypingSpeedMeasurer.mkv'
 
 export default function TypingSpeedMeasurer(){
     let content = 

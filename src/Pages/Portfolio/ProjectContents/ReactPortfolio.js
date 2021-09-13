@@ -19,8 +19,7 @@ export default function ReactPortfolio(){
 
     I've learnt a lot of things in this process and one thing that cannot be ruled out is UI Design.
     I like to think I have done a pretty impressive job for someone who is not very experienced with
-    design. Although, it is not the quality of someone whose had a figma design to copy, I think my
-    creativity is also slightly prevalent with this website.
+    design and I think my creativity is also prevalent with this website.
     `
     return (
         <div className = "project-page">

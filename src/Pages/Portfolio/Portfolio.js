@@ -3,7 +3,7 @@ import {portfolio} from '../../staticDB.json'
 import SlideShowPosts from './SlideShowPosts'
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
 import Connect4 from "./ProjectContents/Connect4"
-import EmployeeOS from "./ProjectContents/EmployeeOS"
+import EmployeeOS from "./ProjectContents/InventoryManagement"
 import ReactPortfolio from "./ProjectContents/ReactPortfolio"
 import StudyDashboard from "./ProjectContents/StudyDashboard"
 import TypingSpeedMeasurer from "./ProjectContents/TypingSpeedMeasurer"
@@ -43,7 +43,7 @@ function Portfolio({setPath}){
                 <Route path = "/studyDashboard">
                     <StudyDashboard />
                 </Route>
-                <Route path = "/employeeOS">
+                <Route path = "/inventoryManagement">
                     <EmployeeOS />
                 </Route>
                 <Route path = "/connect4">
